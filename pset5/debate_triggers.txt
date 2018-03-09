@@ -1,0 +1,12 @@
+// trigger file - if you've done problem 9 but no stories are popping up, you
+// should edit this file to contain triggers that will fire on current news
+// stories!
+
+// after trigger named t4
+t1,AFTER,3 Aug 2017 00:00:00
+
+// BEFORE trigger named t4
+t2,BEFORE,4 Aug 2017 00:00:00
+
+//OR trigger
+t3,OR,t1,t2
